@@ -1,3 +1,5 @@
+* {scroll-behavior: smooth;}
+
 body {
     background: linear-gradient(to right, #5A834A, #828149);
     color: white;
@@ -94,7 +96,7 @@ li {
     justify-content: space-between;
     padding: 20px;
     margin: 20px;
-    margin-bottom: 50px; /* Ajoutez une marge en bas pour espacer les divs */
+    margin-bottom: 50px;
 }
 
 .gris {
@@ -155,7 +157,7 @@ li {
 
 #peur, #Bonbons {
     display: grid;
-    margin-top: 50px; /* Ajoutez une marge en haut pour espacer les divs */
+    margin-top: 50px;
 }
 
 #peur .image_desc, #Bonbons .image_desc {
@@ -170,14 +172,12 @@ li {
     align-items: center;
     text-align: center;
     margin: 10px;
-    flex: 1 1 calc(33.33% - 20px);
+    flex: 1 1 calc(33% - 20px);
 }
 
 #Bonbons .image-item {
-    border: 1px solid rgba(0, 0, 0, 0.5);
     border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.20);
 }
 
 .hamburger-checkbox {
@@ -209,9 +209,6 @@ li {
         align-items: center;
     }
 
-    .image-container {
-        margin-bottom: 20px;
-    }
 
     .text-container {
         max-width: 100%;
@@ -248,29 +245,9 @@ li {
         display: flex;
     }
 
-    .image_desc {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .image-item {
-        flex: 1 1 calc(50% - 20px);
-    }
 
     #Bonbons .image-item {
-        border: 1px solid rgba(0, 0, 0, 0.5);
         border-radius: 10px;
-        background-color: rgba(0, 0, 0, 0.5);
-        padding: 10px;
-    }
-
-    #peur .image-item, #Bonbons .image-item {
-        width: calc(50% - 20px);
-        font-size: 2vw; /* Ajustez la taille du texte en fonction de la largeur de la fenêtre */
-    }
-
-    #peur .image-item img, #Bonbons .image-item img {
-        width: 100%;
-        height: auto;
+        background-color: rgba(0, 0, 0, 0.20);
     }
 }
