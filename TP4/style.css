@@ -126,14 +126,14 @@ li {
     border-radius: 50%;
 }
 
-#cadre_rouge {
+.cadre_rouge {
     border: 2px solid orangered;
     padding: 15px;
     border-radius: 10px;
     background-color: orangered;
 }
 
-#cadre_rouge:hover {
+.cadre_rouge:hover {
     cursor: pointer;
 }
 
