@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP4</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="img/img/favicon.png">
+</head>
+<body>
+    <div class="header">
+        <div class="header-content">
+            <img src="img/img/logo.png" alt="Tête de mort" class="icon">
+            <div class="title">Halloween</div>
+        </div>
+        <input type="checkbox" id="hamburger-checkbox" class="hamburger-checkbox">
+        <label for="hamburger-checkbox" class="hamburger">&#9776;</label>
+        <nav class="navbar" id="navbar">
+            <ul class="nav-links">
+                <li><a href="#Accueil" onclick="document.getElementById('hamburger-checkbox').checked = false;">Accueil</a></li>
+                <li><a href="#A_propos" onclick="document.getElementById('hamburger-checkbox').checked = false;">A propos</a></li>
+                <li><a href="#Bonbons" onclick="document.getElementById('hamburger-checkbox').checked = false;">Bonbons</a></li>
+                <li><a href="#Nouveautés" onclick="document.getElementById('hamburger-checkbox').checked = false;">Nouveautés</a></li>
+                <li id="border"><a href="#Support" onclick="document.getElementById('hamburger-checkbox').checked = false;">Support</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="Accueil">
+        <div class="image-container">
+            <img src="img/img/home1-img.png" alt="citrouille" id="citrouille">
+            <div class="image-text-top">
+                <p><span style="font-weight:bold; margin-left: 20px;">Le Labu "Reiza"</span> <br> <span class="gris">La citrouille vivante</span></p>
+                <div class="ligne"></div>
+            </div>
+        </div>
+        <div class="text-container">
+            <p><strong>#1 LE FANTOME LE PLUS EFFRAYANT <br> <br> <span style="font-size: 45px;">UOOO <br> DES BONBONS OU <br> UN SORT !!</span></strong>
+            </p>
+            <p class="gris">La maxime "un bonbon ou un sort" est la traduction littérale de "Trick or Treats" en français. Elle puise ses sources dans la mythologie celtique,
+            notamment dans l'histoire irlandaise du Veme siècle av.
+            </p>
+            <p><span id="cadre_rouge">En savoir plus</span> Acheter des bonbons →</p>
+        </div>
+    </div>
+
+    <div id="peur">
+        <p class="titre">Catégorie de peur <br> préférée</p>
+        <div class="image_desc">
+            <div class="image-item">
+                <img src="img/img/category1-img.png" alt="fantôme" width="150">
+                <p><span class="titre">Les fantômes</span> <br> <span class="gris">Choisissez les fantômes, les plus effrayants</span></p>
+            </div>
+            <div class="image-item">
+                <img src="img/img/category2-img.png" alt="citrouille" width="150">
+                <p><span class="titre">Citrouille</span> <br> <span class="gris">Vous regardez les citrouilles les plus effrayantes</span></p>
+            </div>
+            <div class="image-item">
+                <img src="img/img/category3-img.png" alt="chapeau_de_sorcière" width="150">
+                <p><span class="titre">Chapeau de sorcière</span> <br> <span class="gris">Choisissez les chapeaux de socière les plus stylés du marché</span></p>
+            </div>
+        </div>
+    </div>
+
+    <div id="A_propos">
+        <div class="text-container">
+            <p><strong>A propos de la nuit d'Halloween <br> <br> <span style="font-size: 45px;">UOOO <br> DES BONBONS OU <br> UN SORT !!</span></strong>
+            </p>
+            <p class="gris">La Nuit de tous les saints ou de tous les morts, est célébrée le
+            31 octobre et c'est une fête internationale très amusante, cette célébration
+            vient d'origines anciennes, et est déjà célébré par tout le monde.
+            </p>
+            <p><span id="cadre_rouge">En savoir plus</span></p>
+        </div>
+        <div class="image-container">
+            <img src="img/img/about-img.png" alt="chaudron" id="chaudron">
+        </div>
+    </div>
+
+
+    <div id="Bonbons">
+        <!-- Contenu de la page Bonbons -->
+    </div>
+    <div id="Nouveautés">
+        <!-- Contenu de la page Nouveautés -->
+    </div>
+    <div id="Support">
+        <!-- Contenu de la page Support -->
+    </div>
+</body>
+</html>
