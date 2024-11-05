@@ -31,7 +31,7 @@ li {
     align-items: center;
 }
 
-.title {
+#title {
     color: white;
     font-weight: bold;
     margin-right: 75px;
@@ -58,7 +58,7 @@ li {
     margin: 0;
 }
 
-.nav-links li a {
+.nav-links li a, .lien_achat {
     text-decoration: none;
     color: white;
 }
@@ -137,10 +137,21 @@ li {
     cursor: pointer;
 }
 
+.titre {
+    text-align: center;
+    font-weight: bold;
+}
+
 #peur .titre {
     text-align: center;
     font-weight: bold;
     font-size: 35px;
+}
+
+#Bonbons .titre {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
 }
 
 #peur {
@@ -148,10 +159,14 @@ li {
     margin-top: 50px; /* Ajoutez une marge en haut pour espacer les divs */
 }
 
-.image_desc {
+#peur .image_desc {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+}
+
+#Bonbons .image_desc {
+
 }
 
 .image-item {
