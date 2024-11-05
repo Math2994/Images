@@ -263,5 +263,14 @@ li {
         background-color: rgba(0, 0, 0, 0.5);
         padding: 10px;
     }
-}
 
+    #peur .image-item, #Bonbons .image-item {
+        width: calc(50% - 20px);
+        font-size: 2vw; /* Ajustez la taille du texte en fonction de la largeur de la fenêtre */
+    }
+
+    #peur .image-item img, #Bonbons .image-item img {
+        width: 100%;
+        height: auto;
+    }
+}
