@@ -174,7 +174,7 @@ li {
 }
 
 #Bonbons .image-item {
-    border: 2px solid rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 10px;
